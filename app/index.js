@@ -19,7 +19,7 @@ app.get('/', async (req, res) => {
     res.header('x-served-from', interface_ip);
 
     // Response with server IP 
-    res.send(`Hello AL! I am ${interface_ip}`);
+    res.send(`Hello AL (v0.001)! I am ${interface_ip}`);
 
 });
 
